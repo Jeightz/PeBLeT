@@ -7,12 +7,7 @@
 </head>
 <body>
   <div>
-    
-<form method="POST" action="login.php">
-  <input type="text" name="username">
-  <input type="password" name="password">
-  <button type="submit">Login</button>
-</form>
+
 
   </div>
 </body>
