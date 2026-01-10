@@ -1,38 +1,227 @@
-.header{
-  width: 100%;
-  height: 50px;
-  top: 0;
-  background-color: white;
-  padding:7px 6px 30px;
-
-  box-shadow: 0px 2px 5px rgb(0,0,0,0.1);
-  z-index: 1000;
-  box-sizing: border-box;
-
+*{
+    font-family: Arial, Helvetica, sans-serif;
 }
 body,html{
+  height: 100%;
   margin: 0;
   padding:0;
+}
+body{
+  display: flex;
+  flex-direction: column;
 }
 .footer{
   background-color: blue;
   padding:50px;
 }
-.home{
-  width: 100%;
-  height: 100%;
-  background-color:green;
-}
+
 .btn{
-  color: white;
-  background-color: blue;
-  border: 1px solid black;
-  border-radius: 8px;
-  width: 150px;
+  position: relative;
+  color: black;
+  border: none;
+  background-color: white;
   padding:6px;  
-  font-weight: bold;
+  font-size: 15px;
+  font-weight: bold ;
   transition: 0.2s ease-in ;
 }
 .btn:hover{
-  background-color: rgb(3, 6, 148);
+  color: rgb(3, 6, 148);
+}
+
+.app-header {
+  position: sticky;
+  width: 100%;
+  height: 64px;
+  top: 0;
+  background-color: white;
+  box-shadow: 0px 2px 5px rgb(0,0,0,0.1);
+  z-index: 1000;
+  box-sizing: border-box;
+}
+
+.header-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  justify-content: space-between;
+}
+
+.header-left
+{
+ display: flex;
+  align-items: center;
+  gap: 40px; 
+}
+
+.header-nav a {
+  margin: 0 12px;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  gap: 30px;
+
+}
+.header-right{
+
+  display: flex;
+  gap: 10px
+  ;
+}
+
+.footer-container{
+  box-shadow: 0px -5px 1px -5px black;
+  background-color:white;
+  width: 100%;
+  height: 120px;
+  
+}
+main{
+  flex: 1;
+  background-color: white
+  ;
+}
+.logo{
+  height: 65px;
+}
+p{
+  font-weight: bold;
+}
+.logos{
+  display: flex;
+  align-items: center;
+}
+
+#loginfooter{
+  width: 100%;
+  background-color: white;
+  height: 100px;
+  text-align: center;
+}
+.logincard{
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  
+}
+#login{
+  display: flex;
+  justify-content: center;
+}
+
+#loginheader{
+  width: 100%;
+}
+#loginfooter{
+  padding-top: 30px;
+  width: 100%;
+}
+
+.loginbtn{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  font-size: 12px;
+  margin: 3px;
+  border-radius: 5px;
+  border-color: black;
+  background-color: white;
+  transition: 0.2s ease-in;
+}
+.loginbtn:hover{
+  background-color: rgb(212, 212, 212);
+}
+.loginicon{
+height: 12x;
+width: 25px;
+}
+.logotext{
+flex: 1;
+text-align: center;
+}
+.input-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px 12px;
+    width: 90%;
+    background: white;
+    margin:5px;
+}
+
+.input-box input {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 14px;
+}
+
+.left-icon {
+    width: 18px;
+    margin-right: 8px;
+}
+
+.right-icon {
+    cursor: pointer;
+    margin-left: 8px;
+    font-size: 16px;
+}
+
+hr {
+
+  width: 100%;
+  margin: 20px;
+  border: 0.5px solid black;
+} 
+.btns{
+  padding:10px;
+  width: 97%;
+  margin: 5px;
+  border: 1px solid blue;
+  background-color: blue;
+  color:white;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 200ms ease-in;
+}
+.btns:hover{
+  background-color: rgb(4, 4, 110);
+  border:1px solid  rgb(4, 4, 110);;
+}
+#signupheader{
+  width: 100%;
+  height: 100px;
+  background-color: white;
+}
+#signupfooter{
+  width: 100%;
+  height: 100px;
+  background-color:white;
+  text-align: center;
+}
+#signupmain{
+  display: flex;
+  justify-content: center;
+}
+#signupcard{
+ width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+   
 }
