@@ -67,3 +67,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
+
+function logout(){
+alert("successfully logout")
+}

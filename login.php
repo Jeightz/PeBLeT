@@ -186,9 +186,14 @@ if (isset($_POST['login'])) {
                       "\nName: " + USER_DATA.name + 
                       "\nEmail: " + USER_DATA.email+
                         "\nhashedPassword: " + USER_DATA.hashedPassword);
+                        window.location.href = "home.php";
+
             } else {
                 alert("LOGIN SUCCESS:\n" + loginSuccess);
+                window.location.href = "home.php";
+
             }
+
         }
         if(loginError && loginError.length > 0) {
             alert("LOGIN ERROR:\n" + loginError);

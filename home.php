@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href ="assets/style.css">
+</head>
+<body>
+        <header class="app-header">
+            <div class="header-container">
+                <div class="header-left">
+                    <div class="logos">
+                        <img src="img/logo.png" alt="PebLet" class ="logo">
+                        <p>PebLet</p>
+                    </div>
+                    <nav class="header-nav">
+                        <a href="#">Home</a>
+                        <a href="#">Lending</a>
+                        <a href="#">Borrow</a>
+                    </nav>
+
+                </div>
+                <nav class="header-right">
+                    <a href = "login.php"class="btn" onclick="logout()">Logout</a>
+                </nav>
+
+            </div>
+        </header>
+        <main class="home">
+        </main>
+
+        <footer class ="app-footer">
+            <div class = "footer-container">
+
+            </div>
+        </footer>
+        <script src="assets/script.js"></script>
+</body>
+</html>

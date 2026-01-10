@@ -22,4 +22,6 @@ Created in HTML,CSS , JS And PHP this project meant for a great example for begg
 ![PebLet-Signup](https://i.imgur.com/lvSictI.png)
 ![PebLet-Signup-Success](https://i.imgur.com/pX7VNUh.png)
 ![PebLet-Signup-Login](https://i.imgur.com/58rg89C.png)
+![PebLet-Signup-Redirect-Home](https://i.imgur.com/GOl2kmT.png)
+![PebLet-Signup-Logout](https://i.imgur.com/bFB9e6Q.png)
 
