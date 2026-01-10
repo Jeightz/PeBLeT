@@ -205,6 +205,7 @@ hr {
   background-color: white;
 }
 #signupfooter{
+  display: none;
   width: 100%;
   height: 100px;
   background-color:white;
@@ -215,8 +216,8 @@ hr {
   justify-content: center;
 }
 #signupcard{
- width: 350px;
-  display: flex;
+  display: none;
+  width: 350px;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -224,4 +225,11 @@ hr {
   padding: 15px;
   border-radius: 10px;
    
+}
+.nav{
+  border:none;
+  font-weight:bold;
+  font-size:15px;
+  background-color: white;
+  cursor: pointer;
 }
