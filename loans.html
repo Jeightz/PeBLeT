@@ -3,14 +3,23 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My Loans</title>
+<title>My Loans - PebLet</title>
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    <header>My Loans</header>
-    <main>
-        <button id="addLoanBtn">Add Loan</button>
-        <table border="1" id="loansTable">
+
+<header id="loansHeader">
+    <div class="headerContent">
+        <img src="img/logo.png" alt="PebLet" class="logo">
+        <h1>My Loans</h1>
+    </div>
+</header>
+
+<main id="loansMain">
+    <div id="loansCard">
+        <button class="btnPrimary" id="addLoanBtn">Add Loan</button>
+
+        <table id="loansTable">
             <thead>
                 <tr>
                     <th>Loan Name</th>
@@ -21,9 +30,17 @@
                     <th>Actions</th>
                 </tr>
             </thead>
-            <tbody></tbody>
+            <tbody>
+                <!-- Rows will be added dynamically via JS -->
+            </tbody>
         </table>
-    </main>
-    <script src="assets/script.js"></script>
+    </div>
+</main>
+
+<footer id="loansFooter">
+    &copy; 2026 PebLet
+</footer>
+
+<script src="assets/script.js"></script>
 </body>
 </html>

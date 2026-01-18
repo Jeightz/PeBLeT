@@ -1,28 +1,23 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login - PebLet</title>
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    <header id="loginheader">
- 
-    </header>
+    <header id="loginheader"></header>
+    
     <main id="login">
-
-            <div class="logincard">
+        <div class="logincard">
             <div class="logos">
-                <img src ="img/logo.png" class ="logo" alt="PebLet" id="loginLogo">
+                <img src="img/logo.png" class="logo" alt="PebLet" id="loginLogo">
                 <p>PebLet</p>
             </div>
 
             <div class="input-box">
                 <img src="img/user.png" class="left-icon">
-
                 <input 
                     type="text" 
                     id="username" 
@@ -30,22 +25,21 @@
                 >
             </div>
             
-
             <div class="input-box">
                 <img src="img/lock.png" class="left-icon">
-
                 <input 
                     type="password" 
                     id="password" 
                     placeholder="Enter password"
                 >
-
                 <span class="right-icon" onclick="togglepassword()">
                     👁
                 </span>
             </div>
-            <button class="btns" id="btnlogin"> Login</button>
+            
+            <button class="btns" id="btnlogin">Login</button>
             <hr>        
+            
             <button class="loginbtn">
                 <img class="loginicon" src="img/google.png" alt="google">
                 <span class="logotext">Continue With Google</span>
@@ -54,16 +48,17 @@
                 <img class="loginicon" src="img/facebook.png">
                 <span class="logotext">Continue With Facebook</span>
             </button>
-                <button class="loginbtn">
-                <img id="microsoft"class="loginicon" src="img/microsoft.png">
+            <button class="loginbtn">
+                <img id="microsoft" class="loginicon" src="img/microsoft.png">
                 <span class="logotext">Continue With Microsoft</span>
             </button>
-
         </div>
     </main>
+    
     <footer id="loginfooter">
-        Dont Have Account? <a href="signup.php">Signup</a>
+        Don't Have Account? <a href="signup.html">Signup</a>
     </footer>
+    
+    <script src="assets/script.js"></script>
 </body>
-<script src ="assets/script.js"></script>
 </html>
